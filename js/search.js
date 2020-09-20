@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#search-filters-icon").click(function(){$(".filter-column").slideToggle("slow")}),$("input:checkbox").click(function(){var c,e=$(this);e.is(":checked")&&(c="input:checkbox[name='"+e.attr("name")+"']",$(c).prop("checked",!1),e.prop("checked",!0))})});
